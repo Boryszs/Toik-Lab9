@@ -2,8 +2,7 @@ package com.demo.springboot.rest;
 
 import com.demo.springboot.dto.CreateMovieDto;
 import com.demo.springboot.dto.MovieDto;
-import com.demo.springboot.dto.MovieListDto;
-import com.demo.springboot.service.MovieService;
+import com.demo.springboot.service.serviceImpl.MovieService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -13,7 +12,6 @@ import org.springframework.web.bind.annotation.*;
 
 import java.net.URI;
 import java.net.URISyntaxException;
-import java.util.ArrayList;
 import java.util.List;
 
 @RestController

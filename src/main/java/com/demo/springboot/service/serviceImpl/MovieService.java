@@ -1,9 +1,9 @@
-package com.demo.springboot.service;
+package com.demo.springboot.service.serviceImpl;
 
 import com.demo.springboot.dto.CreateMovieDto;
 import com.demo.springboot.dto.MovieDto;
 import com.demo.springboot.dto.MovieListDto;
-import com.demo.springboot.service.serviceImpl.MovieInterface;
+import com.demo.springboot.service.MovieInterface;
 import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;
